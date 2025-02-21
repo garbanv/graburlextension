@@ -99,7 +99,7 @@ function App() {
             className="flex gap-x-5  my-2  rounded-md"
             
           >
-            <span className="w-full p-2 bg-gray-50 shadow rounded-md">{link}</span>
+            <span className="w-full p-2 bg-gray-50 shadow rounded-md"><a href={link} target="_blank">{link}</a></span>
             <div className="flex justify-end gap-x-5">
               <button onClick={() => handleCopyLink(link)} className="shadow">
                 <FaCopy />
@@ -112,7 +112,7 @@ function App() {
         ))}
       </ul>
     </div>
-    <div className="flex flex-col items-center justify-center text-black"><span className="font-bold text-xs mt-5">Made by <a href="https://agarban.com">Alexei</a></span><a  className="font-bold text-xs underline text-black mb-5 bg-gray-50 rounded py-2 px-5"href="https://buymeacoffee.com/garbanv" target="_blank">Buy me a coffee?</a></div>
+    <div className="flex flex-col items-center justify-center text-black"><span className="font-bold text-xs mt-5">Made by <a href="https://agarban.com" target="_blank">Alexei</a></span><a  className="font-bold text-xs underline text-black mb-5 bg-gray-50 rounded py-2 px-5"href="https://buymeacoffee.com/garbanv" target="_blank">Buy me a coffee?</a></div>
     </div>
   );
 }
