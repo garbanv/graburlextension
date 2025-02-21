@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "GrabURL",
+    "version": "1.0",
+    "description": "Store and copy social media URLs.",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+      "128": "icon.png"
+    }
+    },
+    "permissions": ["storage", "clipboardWrite"]
+  }

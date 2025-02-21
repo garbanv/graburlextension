@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Social Links Manager",
+    "version": "1.0",
+    "description": "Store and copy social media URLs.",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": ["storage", "clipboardWrite"]
+  }
